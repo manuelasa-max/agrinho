@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8e8;
+}
+
+header {
+    background-color: #2e7d32;
+    background-image: url('fundo-agro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+header p {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    background-color: #2e7d32;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo preto transparente */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #198754; /* Fica verde */
+    border-color: #198754;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+#mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2e7d32;
+    font-style: italic;
+}
